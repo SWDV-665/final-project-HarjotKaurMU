@@ -16,6 +16,8 @@ export class AppComponent {
     private statusBar: StatusBar
   ) {
     this.initializeApp();
+    var element = document.body;
+    element.classList.toggle("dark-mode");
   }
 
   initializeApp() {

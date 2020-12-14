@@ -1,7 +1,8 @@
 {
   "name": "marketplace",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }
